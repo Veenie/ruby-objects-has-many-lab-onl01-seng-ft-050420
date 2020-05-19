@@ -14,6 +14,12 @@ class Artist
   def songs
     @songs
   end
+<<<<<<< HEAD
+=======
+  
+  
+
+>>>>>>> 3692adae92df1b5df7e233689ee896479cfec307
  
   def add_song(song)
     song.artist = self
@@ -28,8 +34,13 @@ class Artist
     Song.all.select {|song| song.artist == self}
   end
   
+<<<<<<< HEAD
   def self.song_count
     Song.all.count
+=======
+  def .song_count
+    @songs.count
+>>>>>>> 3692adae92df1b5df7e233689ee896479cfec307
   end  
   
 end
